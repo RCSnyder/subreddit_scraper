@@ -10,7 +10,7 @@ flair_sentiment = flair.models.TextClassifier.load('en-sentiment')
 
 """ from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
-azureclient = TextAnalyticsClient(endpoint="https://textsentimentcheck.cognitiveservices.azure.com/", credential=AzureKeyCredential("36e55f902483497bae2aa7bcbb663a52")) """
+azureclient = TextAnalyticsClient(endpoint="https://textsentimentcheck.cognitiveservices.azure.com/", credential=AzureKeyCredential("")) """
 
 # add an instance of your model to this once you have defined it
 models = []
